@@ -10,16 +10,14 @@ export default class ArticleListItemPlaceholder extends React.Component {
     }
 
     render() {
-        const defaultHeaderImage = "https://www.netlime.eu/wp-content/uploads/2015/12/Wallpaper-Nature-8B71-845x300.jpg";
         return (
             <article>
-                <header
-                    style={{"backgroundImage": "url('" + defaultHeaderImage + "')"}}>
+                <header>
                     <div className="heading-bg">
-                        <h1 style={{color: "white"}}>Loading data</h1>
+                        <h1 style={{color: "white", fontFamily: "Arial"}}>Loading data</h1>
                     </div>
                 </header>
-                <div className="content" style={{color: "black"}}>Lorem ipsum dolor sit amet, consectetur adipiscing
+                <div className="content" style={{color: "black", fontFamily: "Arial"}}>Lorem ipsum dolor sit amet, consectetur adipiscing
                     elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -27,7 +25,7 @@ export default class ArticleListItemPlaceholder extends React.Component {
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </div>
                 <footer>
-                    <Link to="#" className="btn btn-lime pull-right">Read More »</Link>
+                    <Link to="#" className="btn btn-lime pull-right" style={{fontFamily: "Arial"}}>Read More »</Link>
                 </footer>
             </article>
         );
