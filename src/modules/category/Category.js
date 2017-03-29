@@ -1,7 +1,6 @@
 import React from 'react';
 
 import ArticleList from "../article/ArticleList";
-import Header from "../base/Header";
 import Navigation from "../base/Navigation";
 
 export default class Category extends React.Component {
@@ -39,7 +38,6 @@ export default class Category extends React.Component {
 
         return (
             <div className="App">
-                <Header title={this.state.category.name}/>
                 <Navigation/>
                 <ArticleList category={this.state.category.id}/>
             </div>
