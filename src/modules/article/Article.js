@@ -36,17 +36,14 @@ export default class Article extends React.Component {
     render() {
 
         return (
-            <div id="wrapper">
-                <Navigation/>
-                <div id="main">
-                    <main role="main" className="container">
-                        <div className="row">
-                            <div className="col-sm-offset-0 col-sm-12 col-md-offset-2 col-md-9">
-                                <ArticleItem article={this.state.article}/>
-                            </div>
+            <div id="main">
+                <main role="main" className="container">
+                    <div className="row">
+                        <div className="col-sm-offset-0 col-sm-12 col-md-offset-2 col-md-9">
+                            <ArticleItem article={this.state.article}/>
                         </div>
-                    </main>
-                </div>
+                    </div>
+                </main>
             </div>
         );
 

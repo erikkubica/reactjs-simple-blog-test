@@ -1,9 +1,13 @@
 import React from 'react'
+import Navigation from "../base/Navigation";
 
 export default class Root extends React.Component {
     render() {
         return (
-            <div className="routerView">{this.props.children}</div>
+            <div id="wrapper">
+                <Navigation/>
+                {this.props.children}
+            </div>
         );
     }
 }
