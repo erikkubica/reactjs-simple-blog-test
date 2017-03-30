@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from "../base/Navigation";
+//import Navigation from "../base/Navigation";
 //import {AsyncStorage} from "react-native-web";
 import ArticleItem from "./ArticleItem";
 

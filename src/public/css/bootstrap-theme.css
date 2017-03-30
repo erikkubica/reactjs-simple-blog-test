@@ -675,7 +675,7 @@ fieldset[disabled] .btn-danger.active {
   src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url("../fonts/Roboto/Roboto-BoldItalic.ttf") format('truetype');
 }
 body {
-  font-family: Roboto, sans-serif;
+  /**font-family: Roboto, sans-serif;*/
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
